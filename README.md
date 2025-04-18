@@ -1,5 +1,5 @@
 # mood-gratitude-journal
-This is my first project to work on.
+This is my first project to work on.<hr>
 As a beginner to all of this, it seems to be difficult at the start of it but it will progress to better.
 
 This WEB APP is basically created to:
