@@ -7,6 +7,40 @@
     <link rel="stylesheet" href=""style.css />
 </head>
 <body>
-    
+    <div class="wrapinggg">
+        <header>
+            <h1>MOOD & GRATITUDE JOURNAL</h1>
+            <p class="sub-line">Track your emotions | Embrace gratitude | Stay mindful</p>
+        </header>
+        <section class="form-section">
+            <form id="entry-form">
+                <label for="mood">How are you feeling today?</label>
+                <select id="mood" required>
+                    <option value="">-- Choose a mood --</option>
+                    <option value="😄">HAPPY 😄</option>
+                    <option value="😔">SAD 😔</option>
+                    <option value="😎">CONFIDENT 😎</option>
+                    <option value="😍">IN LOVE 😍</option>
+                    <option value="😴">TIRED 😴</option>
+                    <option value="🥱">BORED 🥱</option>
+                    <option value="😡">ANGRY 😡</option>
+                    <option value="🥳">EXCITED 🥳</option>
+                    <option value="😇">BLESSED 😇</option>
+                </select>
+                
+                <label for="gratitude">What are you grateful for?</label>
+                <textarea id="gratitude" rows="4" placeholders="E.g.,My friend, food, dog etc" required></textarea>
+                <button type="submit">➕ Add Entry</button>
+            </form>
+        </section>    
+
+        <section class="entries-section">
+            <h2>Your Past Entries</h2>
+            <div id="entry-box" class=""entry-box">
+            </div>
+        </section>
+    </div>
+
+    <script srs="script.js"></script>
 </body>
 </html>
